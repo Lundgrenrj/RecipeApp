@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.recipeApp"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ActivityMain"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityRecipe"
+            android:label="@string/title_activity_recipe"></activity>
+        <activity
+            android:name=".ActivityIngredients"
+            android:label="@string/title_activity_activity_ingredients"></activity>
+        <activity
+            android:name=".ActivityFavorites"
+            android:label="@string/title_activity_favorites"></activity>
+        <activity
+            android:name=".ActivityShoppingList"
+            android:label="@string/title_activity_activity_shopping_list"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">recipeApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="recipeDetailsString">Recipe Details</string>
+    <string name="ingredientText">Ingredients</string>
+    <string name="title_activity_recipe">RecipeActivity</string>
+    <string name="recipeNameString">Recipe Name</string>
+    <string name="searchButton">Search</string>
+    <string name="ingredientListText">Ingredients</string>
+    <string name="recipeTextView">Recipes</string>
+    <string name="title_activity_activity_ingredients">ActivityIngredients</string>
+    <string name="addToFavoritesString">Add to Favorites</string>
+    <string name="title_activity_favorites">FavoritesActivity</string>
+    <string name="favoriteString">Favorites</string>
+    <string name="title_activity_activity_shopping_list">ActivityShoppingList</string>
+    <string name="shoppingListText">Shopping List</string>
+    <string name="addToShoppingListString">Add to ShoppingList</string>
+    <string name="recipeSearchText">Search for recipe or ingredient</string>
+    <string name="goToFavoritesString">Go to Favorites</string>
+    <string name="goToShoppingListString">Go to Shopping List</string>
+
+</resources>
